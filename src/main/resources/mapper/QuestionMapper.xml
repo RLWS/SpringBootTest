@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rlws.spring.boot.springboot.mapper.QuestionMapper">
+  <resultMap id="BaseResultMap" type="com.rlws.spring.boot.springboot.entity.Question">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="praise" jdbcType="INTEGER" property="praise" />
+    <result column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="optimal" jdbcType="INTEGER" property="optimal" />
+    <result column="urgent" jdbcType="INTEGER" property="urgent" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>
